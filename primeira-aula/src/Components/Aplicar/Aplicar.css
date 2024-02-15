@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+ 
+}
+.toolBar{
+    padding: 3% 1%;
+    display: inline-flex;
+    justify-content: space-around;
+    position: fixed;
+    background-color: #f7f7f7;
+}
+
+.navLinks{
+    display: flex;
+    gap: 20px;
+    padding-right: 40%;
+    
+}
+
+
+.link:hover{
+    color: red;
+    cursor: pointer;
+    
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn_red{
+    background-color: red !important;
+    color: black !important;
+}
+.login.link{
+    color: red;
+    margin-top: 8px;
+    margin-right: 40px;
+
+}
+.btn_c{
+    display: flex;
+    
+}
+
+.tamanho{
+    width: 10rem;
+}

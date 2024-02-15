@@ -9,12 +9,13 @@
 // }
 
 import AppBar from "./Components/Aplicar/Aplicar";
+import AppBanner from "./Components/banner/banner";
 
 const App = () => {
   return(
     <>
     <AppBar/>
-    <h1>hello world</h1>
+    <AppBanner/>
     </>
   )
  
