@@ -1,0 +1,96 @@
+.grid {
+	display: grid;
+}
+
+.grid-template-columns {
+	grid-template-columns: 450px 450px;
+}
+
+
+
+
+/* Estilos Gerais */
+.item1{
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+	margin: 5px;
+	background: red;
+	text-align: center;
+	font-size: 1.5em;
+    background-image: url("https://static.ifood-static.com.br/image/upload/f_auto/webapp/landingV2/restaurant.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    
+}
+.item2{
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+	margin: 5px;
+	background: green;
+	text-align: center;
+	font-size: 1.5em;
+    background-image: url("https://static.ifood-static.com.br/image/upload/f_auto/webapp/landingV2/market.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+.grid {
+    
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+.card {
+	font-family: monospace;
+	
+	margin: 0px;
+	padding-bottom: 60px;
+}
+.card > div {
+	padding: 40px 0;
+}
+
+.card > div:nth-of-type(even) {
+	background: rgba(0,0,0,.03);
+}
+
+.card{
+    width: 60%;
+    text-align: center;
+}
+
+.item1 h2{
+    margin-top: 26px;
+    margin-left: 20px;
+    text-align: left;
+}
+.item2 h2{
+    margin-top: 26px;
+    margin-left: 20px;
+    text-align: left;
+}
+.item1 p{
+    background-color: aliceblue;
+    width: 80px;
+    border-radius: 10px;
+    margin-top: 26px;
+    margin-left: 20px;
+    text-align: left;
+}
+.item2 p{
+    background-color: aliceblue;
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 26px;
+    margin-left: 20px;
+    text-align: left;
+}

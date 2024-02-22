@@ -2,6 +2,58 @@
     margin: 0;
     padding: 0;
 }
+.hero{
+    background-image:url("../../../public/img/ifood.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
 .banner{
+    width: 100%;
+}
+.banner h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
+.banner p{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     padding-top: 1rem;
+}
+.gsearch{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     padding-top: 1rem;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn_red{
+    background-color: red !important;
+    margin-left: 5px;
+    color: white !important;
+    border-radius:1%;
+    border: red;
+    padding: 5px;
+}
+form{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     padding-top: 1rem; 
+}
+.q{
+    padding: 3px;
+    margin-left: 5px;
+}
+.espaco{
+    height: 400px;
+}
+  

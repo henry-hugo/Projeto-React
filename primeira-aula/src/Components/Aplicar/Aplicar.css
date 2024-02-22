@@ -14,8 +14,8 @@
 
 .navLinks{
     display: flex;
-    gap: 20px;
-    padding-right: 40%;
+    gap: 50px;
+    
     
 }
 
@@ -48,5 +48,5 @@
 }
 
 .tamanho{
-    width: 10rem;
+    width: 5rem;
 }

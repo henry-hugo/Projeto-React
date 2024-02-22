@@ -1,13 +1,22 @@
 import { Toolbar, Typography } from "@mui/material";
+import './banner.css';
 
 function AppBanner(){
     return(
         <>
         <Toolbar className="hero">
             <Typography className="banner">
-                <img src="https://tm.ibxk.com.br/2021/12/20/20102057981094.jpg?ims=1120x420"  />
+                <h1>Faça mercado no iFood</h1>
+                <p>Entregamos tudo o que precisa na porta da sua casa, de hortifruti a itens de limpeza</p>
+                <form>
+                    
+                    <input type="search" id="site-search" className="q" />
+                    <button className="btn_red">Ver mercados próximos</button>
+                </form>
+                <div className="espaco"></div>
             </Typography>
         </Toolbar>
+
         </>
     )
 }
