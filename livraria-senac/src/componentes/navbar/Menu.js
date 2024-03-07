@@ -1,7 +1,7 @@
 import { Item } from "../styles/lista";
-import { ImagemLogo } from "./styles/imagem";
-import { Lista } from "./styles/lista";
-import { Menu } from "./styles/texto";
+import { ImagemLogo } from "../styles/imagem";
+import { Lista } from "../styles/lista";
+import { Menu } from "../styles/texto";
 
 const lista= ['Lançamentos', 'Blog', 'Fale Conosco'];
 

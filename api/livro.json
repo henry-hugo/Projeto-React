@@ -1,0 +1,37 @@
+[
+    {
+        "titulo": "Sombras do Crepúsculo",
+        "autor": "Isabella Luna",
+        "ano": 2023,
+        "preco": "R$ 39,99",
+        "imagem": "https://i.pinimg.com/originals/a0/33/cf/a033cfa4a3629c9c64c668a2f8c3cb9e.jpg"
+    },
+    {
+        "titulo": "O Enigma das Estrelas",
+        "autor": "Lucas Silva",
+        "ano": 2022,
+        "preco": "R$ 29,99",
+        "imagem": "https://th.bing.com/th/id/R.17cd97cb1466bdb15aaa6b6990abe23e?rik=apmGd8Sp0r1mqw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-YPA_43AKshA%2fU3N9O2_bkVI%2fAAAAAAAAB1w%2fytdmoPuDAnk%2fs1600%2fEnigma-197x300.jpg&ehk=Z9wd26sGlO%2bNaWiPtq5BHTktDrqXnLePmtCAIY8XvQQ%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+        "titulo": "Caminhos Perdidos",
+        "autor": "Sofia Rodrigues",
+        "ano": 2021,
+        "preco": "R$ 24,99",
+        "imagem": "https://i.pinimg.com/736x/66/26/f0/6626f0e57239b7870326891decd9a233.jpg"
+    },
+    {
+        "titulo": "Além do Horizonte",
+        "autor": "Pedro Nunes",
+        "ano": 2020,
+        "preco": "R$ 19,99",
+        "imagem": "https://i.pinimg.com/originals/c3/84/e4/c384e4b7a24b5dd78f1e9cb3b08d5b3f.jpg"
+    },
+    {
+        "titulo": "O Mistério da Antiga Biblioteca",
+        "autor": "Laura Almeida",
+        "ano": 2019,
+        "preco": "R$ 34,99",
+        "imagem": "https://th.bing.com/th/id/OIP.2HahnNa_unWNDsgSZkF5jwHaKj?rs=1&pid=ImgDetMain"
+    }
+]
