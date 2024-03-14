@@ -1,6 +1,8 @@
 import './App.css';
+import Maisbuscados from './componentes/Maisbuscados/Maisbuscados';
+//import Maisbuscados from './componentes/Maisbuscados/Maisbuscados';
 import MenuBar from './componentes/navbar/Menu';
-import { Subtitulo, Texto, Titulo } from './componentes/styles/texto';
+import {  } from './componentes/styles/texto';
 
 
 function App() {
@@ -8,9 +10,7 @@ function App() {
     <div className="App">
       <MenuBar/>
       <header className="App-header">
-      <Titulo cor="blue">Título de TCC e subtítulo: o que diz a ABNT e exemplos</Titulo>
-      <Subtitulo cor="green">Elemento deve ser escolhido pensando em estimular a leitura do trabalho.</Subtitulo>
-      <Texto cor="#fff">O título de TCC e o subtítulo são fundamentais no trabalho de conclusão de curso. Além disso, eles devem estar em conformidade com as normas da ABNT.</Texto>
+      <Maisbuscados/>
       </header>
     </div>
   );
