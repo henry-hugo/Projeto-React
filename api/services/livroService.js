@@ -8,8 +8,7 @@ exports.buscarLivros = () => {
 }
 
 exports.buscarTitulo = (titulo) => {
-    const Livros = JSON.parse(meuLivros);
-    return Livros.find(Livro => livro.titulo.toLowerCase().includes(titulo.toLowerCase()));
-
+    const Livro = JSON.parse(meuLivros);
+    return Livro.find(Livro => Livro.titulo.toLowerCase().includes(titulo.toLowerCase()));
 
 }

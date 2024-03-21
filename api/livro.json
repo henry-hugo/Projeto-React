@@ -33,5 +33,26 @@
         "ano": 2019,
         "preco": "R$ 34,99",
         "imagem": "https://th.bing.com/th/id/OIP.2HahnNa_unWNDsgSZkF5jwHaKj?rs=1&pid=ImgDetMain"
+    },
+    {
+        "titulo": "O Mistério do Relógio Antigo",
+        "autor": "Ana Rodrigues",
+        "ano": 2021,
+        "preco": "R$ 24,99",
+        "imagem": "https://th.bing.com/th/id/OIP.LQSUXWaQJesciK4D2tsmXAHaMT?rs=1&pid=ImgDetMain"
+    },
+    {
+        "titulo": "As Aventuras de Luna",
+        "autor": "Pedro Santos",
+        "ano": 2023,
+        "preco": "R$ 19,99",
+        "imagem": "https://th.bing.com/th/id/OIP.xKi1OA09AD5oxqMqtzLhUwHaL0?rs=1&pid=ImgDetMain"
+    },
+    {
+        "titulo": "O Segredo do Cofre Dourado",
+        "autor": "Sofia Almeida",
+        "ano": 2020,
+        "preco": "R$ 27,99",
+        "imagem": "https://th.bing.com/th/id/OIP.73q2EQ6brMNG_IBgXSWwNwAAAA?rs=1&pid=ImgDetMain"
     }
 ]

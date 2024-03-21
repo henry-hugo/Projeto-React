@@ -15,9 +15,6 @@ function MenuBar(){
                 })
             }
         </Lista>
-        <Lista>
-            <input type="search"/>
-        </Lista>
    </Menu>
 }
 

@@ -7,7 +7,7 @@ export const Container = styled.div`
     padding: 1rem;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
     transition: 0.3s;
-    width: 20%;
+    width: 300px;
     margin: 1rem;
 `;
 
@@ -31,6 +31,6 @@ export const Ano = styled.p`
 
 export const Preco = styled.p`
     font-size: ${props => props.tamanho || '15px'};
-    color: ${props => props.cor || 'red'};
+    color: ${props => props.cor || 'black'};
     line-weight: 1.5rem;
 `;

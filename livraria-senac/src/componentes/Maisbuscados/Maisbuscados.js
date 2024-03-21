@@ -20,7 +20,7 @@ const Maisbuscados = () => {
     },[])
     return(
         <div>
-            <h2>Conteúdo do JSON:</h2>
+            <h2></h2>
             {
                 livros.map((livros) =>{
                     return <>
@@ -28,8 +28,8 @@ const Maisbuscados = () => {
                             <Titulo>{livros.titulo}</Titulo>
                             <Autor>{livros.autor}</Autor>
                             <Ano>{livros.ano}</Ano>
-                            <Preco>{livros.preco}</Preco>
                             <ImagemLivro src={livros.imagem}></ImagemLivro>
+                            <Preco>{livros.preco}</Preco>
                         </Container>
                     </>
                 })
