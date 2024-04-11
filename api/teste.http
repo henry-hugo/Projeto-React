@@ -1,0 +1,7 @@
+POST   http://localhost:8080/addUser
+content-type: application/json
+
+{
+    "name": "sample",
+    "password": "123"
+}
