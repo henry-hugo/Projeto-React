@@ -4,7 +4,6 @@ import Maisbuscados from './componentes/Maisbuscados/Maisbuscados';
 //import Maisbuscados from './componentes/Maisbuscados/Maisbuscados';
 import MenuBar from './componentes/navbar/Menu';
 import Pesquisa from './componentes/pesquisa/Pesquisa';
-import {  } from './componentes/styles/texto';
 import Register from './componentes/register/Register';
 
 

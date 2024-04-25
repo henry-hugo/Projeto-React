@@ -36,6 +36,21 @@ app.post('/addUser', (req, res) =>{
         res.status(400).send('Dados invalidos')
     }
 })
+//rota de login
+app.post('/login', async (req, res)=>{
+    //Extração das variáveis que estão sendo passadas
+    const {name, password} = req.body;
+
+    //aguardamos o resultado da função que irá validar nossos dados
+    const resul = await userService.validateLogin(name, password);
+
+    if(resul){
+        res.status(200).json('ok')
+    } else {
+        res.status(401).json('Dados incorretos')
+    }
+
+})
 app.listen(8080)
 
 

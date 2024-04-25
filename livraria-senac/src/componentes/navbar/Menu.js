@@ -2,6 +2,7 @@ import { Item } from "../styles/lista";
 import { ImagemLogo } from "../styles/imagem";
 import { Lista } from "../styles/lista";
 import { Menu } from "../styles/texto";
+import { Link } from "react-router-dom";
 
 const lista= ['Lançamentos', 'Blog', 'Fale Conosco'];
 
@@ -14,6 +15,9 @@ function MenuBar(){
                     return <Item>{item}</Item>
                 })
             }
+            <Item>
+                <Link to="/register">cadastro</Link>
+            </Item>
         </Lista>
    </Menu>
 }
