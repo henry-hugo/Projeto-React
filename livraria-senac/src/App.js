@@ -5,6 +5,7 @@ import Maisbuscados from './componentes/Maisbuscados/Maisbuscados';
 import MenuBar from './componentes/navbar/Menu';
 import Pesquisa from './componentes/pesquisa/Pesquisa';
 import Register from './componentes/register/Register';
+import Login from './componentes/login/login';
 
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
             </hero>
           </>
         } />
-        <Route path='/register' element={ <Register/> }/>
+        <Route path='/register' element={ <Login/> }/>
+        
         
       </Routes>
     </div>
