@@ -1,0 +1,142 @@
+[
+    {
+        "titulo": "A Chama da Vingança",
+        "categoria": "Ação",
+        "ano": 2024,
+        "imagem": "chama_da_vengeanca.jpg",
+        "link": "www.filmes.com/a_chama_da_vengeanca"
+    },
+    {
+        "titulo": "Risos Inesperados",
+        "categoria": "Comédia",
+        "ano": 2023,
+        "imagem": "risos_inesperados.jpg",
+        "link": "www.filmes.com/risos_inesperados"
+    },
+    {
+        "titulo": "A Jornada do Desconhecido",
+        "categoria": "Aventura",
+        "ano": 2022,
+        "imagem": "jornada_do_desconhecido.jpg",
+        "link": "www.filmes.com/a_jornada_do_desconhecido"
+    },
+    {
+        "titulo": "O Enigma da Casa Vazia",
+        "categoria": "Mistério",
+        "ano": 2021,
+        "imagem": "enigma_da_casa_vazia.jpg",
+        "link": "www.filmes.com/o_enigma_da_casa_vazia"
+    },
+    {
+        "titulo": "A Sombra do Medo",
+        "categoria": "Suspense",
+        "ano": 2020,
+        "imagem": "sombra_do_medo.jpg",
+        "link": "www.filmes.com/a_sombra_do_medo"
+    },
+    {
+        "titulo": "Operação Resgate",
+        "categoria": "Ação",
+        "ano": 2019,
+        "imagem": "operacao_resgate.jpg",
+        "link": "www.filmes.com/operacao_resgate"
+    },
+    {
+        "titulo": "A Comédia da Vida",
+        "categoria": "Comédia",
+        "ano": 2018,
+        "imagem": "a_comedia_da_vida.jpg",
+        "link": "www.filmes.com/a_comedia_da_vida"
+    },
+    {
+        "titulo": "A Ilha Perdida",
+        "categoria": "Aventura",
+        "ano": 2017,
+        "imagem": "a_ilha_perdida.jpg",
+        "link": "www.filmes.com/a_ilha_perdida"
+    },
+    {
+        "titulo": "O Segredo do Relógio",
+        "categoria": "Mistério",
+        "ano": 2016,
+        "imagem": "o_segredo_do_relogio.jpg",
+        "link": "www.filmes.com/o_segredo_do_relogio"
+    },
+    {
+        "titulo": "A Noite do Terror",
+        "categoria": "Suspense",
+        "ano": 2015,
+        "imagem": "a_noite_do_terror.jpg",
+        "link": "www.filmes.com/a_noite_do_terror"
+    },
+    {
+        "titulo": "A Batalha Final",
+        "categoria": "Ação",
+        "ano": 2014,
+        "imagem": "a_batalha_final.jpg",
+        "link": "www.filmes.com/a_batalha_final"
+    },
+    {
+        "titulo": "Risadas à Meia-Noite",
+        "categoria": "Comédia",
+        "ano": 2013,
+        "imagem": "risadas_a_meia_noite.jpg",
+        "link": "www.filmes.com/risadas_a_meia_noite"
+    },
+    {
+        "titulo": "A Busca do Tesouro",
+        "categoria": "Aventura",
+        "ano": 2012,
+        "imagem": "a_busca_do_tesouro.jpg",
+        "link": "www.filmes.com/a_busca_do_tesouro"
+    },
+    {
+        "titulo": "O Mistério da Mansão",
+        "categoria": "Mistério",
+        "ano": 2011,
+        "imagem": "o_misterio_da_mansao.jpg",
+        "link": "www.filmes.com/o_misterio_da_mansao"
+    },
+    {
+        "titulo": "O Silêncio da Noite",
+        "categoria": "Suspense",
+        "ano": 2010,
+        "imagem": "o_silencio_da_noite.jpg",
+        "link": "www.filmes.com/o_silencio_da_noite"
+    },
+    {
+        "titulo": "A Revolta dos Robôs",
+        "categoria": "Ação",
+        "ano": 2009,
+        "imagem": "a_revolta_dos_robos.jpg",
+        "link": "www.filmes.com/a_revolta_dos_robos"
+    },
+    {
+        "titulo": "A Festa dos Palhaços",
+        "categoria": "Comédia",
+        "ano": 2008,
+        "imagem": "a_festa_dos_palhacos.jpg",
+        "link": "www.filmes.com/a_festa_dos_palhacos"
+    },
+    {
+        "titulo": "A Descoberta do Novo Mundo",
+        "categoria": "Aventura",
+        "ano": 2007,
+        "imagem": "a_descoberta_do_novo_mundo.jpg",
+        "link": "www.filmes.com/a_descoberta_do_novo_mundo"
+    },
+    {
+        "titulo": "O Código Secreto",
+        "categoria": "Mistério",
+        "ano": 2006,
+        "imagem": "o_codigo_secreto.jpg",
+        "link": "www.filmes.com/o_codigo_secreto"
+    },
+    {
+        "titulo": "A Casa Assombrada",
+        "categoria": "Suspense",
+        "ano": 2005,
+        "imagem": "a_casa_assombrada.jpg",
+        "link": "www.filmes.com/a_casa_assombrada"
+    }
+]
