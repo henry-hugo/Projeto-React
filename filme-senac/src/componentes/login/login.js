@@ -298,7 +298,7 @@ function Login() {
 
     <div class="content"> 
 
-     <h2>Sign In</h2> 
+     <h2>Login</h2> 
 
      <div class="form"> 
 
@@ -308,7 +308,7 @@ function Login() {
         type="text"
         value={name}
         onChange={(e) => setName(e.target.value)}
-        placeholder="Usuario"/>
+        />
          <i>Username</i> 
 
       </div> 
@@ -319,7 +319,7 @@ function Login() {
         type="password"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
-        placeholder="Password"/>
+        />
          <i>Password</i> 
 
       </div> 
@@ -330,9 +330,10 @@ function Login() {
 
       <div class="inputBox"> 
 
-      <input   type="submit" onClick={handleLogin} value={"Entrar"}/>
+      <input type="submit" onClick={handleLogin} value={"Entrar"}/>
             
-        {error && <p>{error}</p>}
+        {error && <p style={{ color: 'white' }}>{error}</p>
+}
 
       </div> 
 

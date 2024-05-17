@@ -1,6 +1,7 @@
 import { useEffect,  useState } from "react";
 import { ImagemLivro } from "../styles/imagem";
-import { Container, Titulo, Autor, Preco, Ano } from "../styles/livros";
+import { Container, Titulo, Autor, Ano } from "../styles/livros";
+import { Link } from "../styles/texto";
 
 const Maisbuscados = () => {
     const[livros, setLivros] = useState([]);
@@ -22,14 +23,15 @@ const Maisbuscados = () => {
         <div>
             <h2></h2>
             {
-                livros.map((livros) =>{
+                livros.map((filmes) =>{
                     return <>
                         <Container>
-                            <Titulo>{livros.titulo}</Titulo>
-                            <Autor>{livros.autor}</Autor>
-                            <Ano>{livros.ano}</Ano>
-                            <ImagemLivro src={livros.imagem}></ImagemLivro>
-                            <Preco>{livros.preco}</Preco>
+                            <Link href="{filmes.link}">
+                            <Titulo>{filmes.titulo}</Titulo>
+                            <Autor>{filmes.categoria}</Autor>
+                            <Ano>{filmes.ano}</Ano>
+                            <ImagemLivro src={filmes.imagem}></ImagemLivro>
+                            </Link>
                         </Container>
                     </>
                 })

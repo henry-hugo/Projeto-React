@@ -7,7 +7,7 @@ export const ImagemLogo= styled.img`
 
 
 export const ImagemLivro= styled.img`
-    width: 200px;
+    width: 100px;
     height: auto;
     aspect-ratio: 3/4;
     object-fit: contain;

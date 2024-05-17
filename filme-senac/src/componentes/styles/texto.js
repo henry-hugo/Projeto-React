@@ -24,7 +24,16 @@ export const Texto = styled.p`
 export const Menu = styled.nav`
     display:flex;
     height: 50px;
-    background-color: white;
+    background-color: black;
     aling-items: center;
     justify-content: space-around;
+`;
+
+export const Link = styled.a`
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+        color: red;
+    }
 `;

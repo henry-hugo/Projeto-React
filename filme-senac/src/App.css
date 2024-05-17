@@ -28,7 +28,7 @@
   color: #61dafb;
 }
 .App-hero{
-  background-color: #ff0fb7;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

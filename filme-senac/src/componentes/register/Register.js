@@ -323,6 +323,7 @@ const Register = () => {
                     />
                 <i>Username</i> 
                 </div>
+                <br/>
                 <div class="inputBox"> 
                     <input
                     type="password"
@@ -334,7 +335,7 @@ const Register = () => {
                     />
                     <i>Password</i> 
                 </div>
-
+                <br/>
                 <div class="links"> <a href="/">Voltar</a></div>
                 <div class="inputBox"> 
                     <input type="submit" value={"Cadastrar"} />
@@ -364,9 +365,3 @@ const Register = () => {
 };
 
 export default Register;
-
-
-<div>
-            <h1>Tela de cadastro</h1>
-           
-        </div>
