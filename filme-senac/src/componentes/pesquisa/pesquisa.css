@@ -1,0 +1,32 @@
+/* SearchInput.css */
+.search {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 56px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: 0.3s all;
+  }
+  
+  .search:hover {
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  }
+  
+  .search input {
+    flex-grow: 1;
+    border: none;
+    padding: 0 16px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .search button {
+    padding: 0 16px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  

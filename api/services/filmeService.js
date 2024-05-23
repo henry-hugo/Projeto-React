@@ -1,13 +1,13 @@
 const fs = require('fs');
 
-const meuLivros = fs.readFileSync('filme.json', 'utf-8');
+const meuFilmes = fs.readFileSync('filme.json', 'utf-8');
 
-exports.buscarLivros = () => {
-    return JSON.parse(meuLivros);
+exports.buscarFilmes = () => {
+    return JSON.parse(meuFilmes);
 
 }
 
 exports.buscarTitulo = (titulo) => {
-    const Livro = JSON.parse(meuLivros);
-    return Livro.filter(Livro => Livro.titulo.toLowerCase().includes(titulo.toLowerCase()));
+    const Filme = JSON.parse(meuFilmes);
+    return Filme.filter(Filme => Filme.titulo.toLowerCase().includes(titulo.toLowerCase()));
 }

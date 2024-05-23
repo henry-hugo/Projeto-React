@@ -1,7 +1,7 @@
 
 //chamando o pacote que eu instalei para dentro do meu arquivo para poder usa-lo
 const express = require('express');
-const LivrosImportados = require('./services/livroService');
+const FilmesImportados = require('./services/filmeService');
 const userService = require('./services/usersServices');
 const body = require('body-parser');
 const cors = require('cors');
@@ -11,13 +11,13 @@ app.use(cors());
 app.use(body.json());
 
 app.get('/minhaRota', (req, res)=>{
-    res.status(200).json(LivrosImportados.buscarLivros())
+    res.status(200).json(FilmesImportados.buscarFilmes())
 });
 
-app.get('/buscarLivros/:titulo', (req, res)=>{
+app.get('/buscarFilmes/:titulo', (req, res)=>{
 
     const {titulo} = req.params;
-    const resultado = LivrosImportados.buscarTitulo(titulo);
+    const resultado = FilmesImportados.buscarTitulo(titulo);
 
     if (resultado) {
        res.status(200).send(resultado)

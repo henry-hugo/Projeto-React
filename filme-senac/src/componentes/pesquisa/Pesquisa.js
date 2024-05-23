@@ -1,18 +1,19 @@
-import { Titulo } from "../styles/livros";
+import { Titulo } from "../styles/filme";
 import { Container } from "../styles/pesquisa";
 import { useState } from "react";
 import Resultado from "./Resultado";
+import "./pesquisa.css";
 
 const Pesquisa = () => {
     const [termoBusca, setTermoBusca] = useState('');
-    const [livros, setLivros] = useState([]);
+    const [Filmes, setFilmes] = useState([]);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch(`http://localhost:8080/buscarLivros/${termoBusca}`);
+            const response = await fetch(`http://localhost:8080/buscarFilmes/${termoBusca}`);
             const data = await response.json();
-            setLivros(data); // Alterado para definir diretamente os dados retornados
+            setFilmes(data); // Alterado para definir diretamente os dados retornados
         } catch (error) {
             console.error(error);
         }
@@ -20,13 +21,16 @@ const Pesquisa = () => {
 
     return (
         <Container>
-            <Titulo>Qual o filme você deseja?</Titulo>
-            <input placeholder="Digite"
-                value={termoBusca}
-                onChange={(e) => setTermoBusca(e.target.value)}
-            />
-            <button onClick={handleSubmit}>Buscar</button>
-            <Resultado livros={livros} />
+            <Titulo tamanho="40px">Qual o filme você deseja?</Titulo>
+            <div className="search">
+                <input placeholder="Digite aqui"
+                    value={termoBusca}
+                    onChange={(e) => setTermoBusca(e.target.value)}
+                />
+                <button type="submit" onClick={handleSubmit}>🔍</button>
+            </div>
+        
+            <Resultado filmes={Filmes} />
         </Container>
     );
 }

@@ -1,36 +1,36 @@
 import { useEffect,  useState } from "react";
-import { ImagemLivro } from "../styles/imagem";
-import { Container, Titulo, Autor, Ano } from "../styles/livros";
+import { ImagemFilme} from "../styles/imagem";
+import { Container, Titulo, Autor, Ano } from "../styles/filme";
 import { Link } from "../styles/texto";
 
 const Maisbuscados = () => {
-    const[livros, setLivros] = useState([]);
+    const[Filmes, setFilmes] = useState([]);
 
     useEffect(()=>{
-        const buscarLivros =async () => {
+        const buscarFilmes =async () => {
             try {
                 const resposta = await fetch('http://localhost:8080/minhaRota');
                 const dados = await resposta.json();
                 console.log(dados)
-                setLivros(dados);
+                setFilmes(dados);
             } catch (error) {
                 console.error(error);
             }
         }
-        buscarLivros();
+        buscarFilmes();
     },[])
     return(
         <div>
             <h2></h2>
             {
-                livros.map((filmes) =>{
+                Filmes.map((filmes) =>{
                     return <>
                         <Container>
-                            <Link href="{filmes.link}">
+                            <Link href={filmes.link} target="_blank">
                             <Titulo>{filmes.titulo}</Titulo>
                             <Autor>{filmes.categoria}</Autor>
                             <Ano>{filmes.ano}</Ano>
-                            <ImagemLivro src={filmes.imagem}></ImagemLivro>
+                            <ImagemFilme src={filmes.imagem}></ImagemFilme>
                             </Link>
                         </Container>
                     </>
@@ -44,4 +44,4 @@ export default Maisbuscados;
 
 
 
-//<p>{livros[0] ?livros[0].titulo:''}</p>
+//<p>{filmes[0] ?filmes[0].titulo:''}</p>
